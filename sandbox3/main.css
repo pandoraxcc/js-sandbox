@@ -1,0 +1,23 @@
+.home-page {
+    background-color: #f7f7f7;
+}
+
+.logo-rabbit {
+    margin-top: 25%;
+    margin-bottom: 3%;
+    height: 200px;
+    width: auto;
+    
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.row1 {
+    width: 50%;
+}
