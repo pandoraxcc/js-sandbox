@@ -1,0 +1,50 @@
+/* Resetting the default spacing */ 
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.main-widget {
+    max-width: 40%;
+    height: auto;
+    margin: 5rem auto 5rem auto;
+    padding: 3rem 0rem 3rem 0rem;
+    background: url("../img/background-night.jpeg") no-repeat ;
+    background-size: auto;
+    border-radius: 2rem;
+}
+
+#city {
+    text-align: center;
+    display: block;
+    padding-top: 0.7rem;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 2rem;
+    color: white;
+}
+
+#temperature, #humidity {
+    text-align: center;
+    display: block;
+    padding-top: 0.7rem;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 1.1rem;
+    color: white;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 25%;
+    height:auto;
+}
+
+img:hover {
+    filter: saturate(3);
+}
