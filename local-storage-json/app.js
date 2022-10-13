@@ -3,7 +3,7 @@ class Storage {
 
     static unload_data() {
 
-        let data = localStorage.getItem("data");
+        let data = JSON.parse(localStorage.getItem("data"));
         console.log(data);
 
         if(!data) {
@@ -12,6 +12,7 @@ class Storage {
         }
 
         else {
+            console.log(typeof(data));
             let element_result = (`<p class="text-success p-3">This is the data: ${data}</p>`);
             $(element_result).appendTo(".results");
         }
