@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local storage implementation</title>
+
+    
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./app.js"></script>
+
+</head>
+<body>
+    <div class="container text-center pt-5">
+        <div class="row">
+            <div class="col">
+                <h2>Local Storage with ES6</h2>
+                <p>Wrappers using static methods for local storage</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container w-50">
+        <div class="row">
+            <div class="col">
+                <form action="">
+                    <div class="input-group mt-3 mb-3">
+                        <div class="input-group-prepend m-auto">
+                          <span class="input-group-text">📥</span>
+                          <input type="text" class="form-control input-to-save" placeholder="Data">
+
+                        </div>
+                    </div>
+
+                    <div class="controls text-center">
+                        <button type="button" class="btn btn-primary border-0 rounded m-2 save">Save</button>
+                        <button type="button" class="btn btn-success border-0 rounded m-2 unload">Unload</button>
+                        <button type="button" class="btn btn-danger border-0 rounded m-2 clear">Clear</button>
+                    </div>
+
+                    <div class="status-upload text-center"></div>
+
+                    <div class="results text-center">
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
